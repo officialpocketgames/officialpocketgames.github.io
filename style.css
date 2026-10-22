@@ -1,0 +1,39 @@
+:root {
+  --bg: #0e0204;
+  --panel: #1a0508;
+  --text: #f3eaea;
+  --muted: #c2aeb0;
+  --accent: #e0263a;
+  --rule: #3a1218;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at top, #2a060c 0%, var(--bg) 60%) fixed, var(--bg);
+  color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+header.site { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+header.site img { width: 48px; height: 48px; border-radius: 11px; }
+header.site a { color: var(--text); text-decoration: none; font-weight: 700; font-size: 20px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 32px 0 8px; padding-top: 12px; border-top: 1px solid var(--rule); }
+p, li { color: var(--text); }
+.muted { color: var(--muted); }
+a { color: var(--accent); }
+ul, ol { padding-left: 22px; }
+li { margin: 4px 0; }
+.hero { text-align: center; padding: 40px 0 16px; }
+.hero img { width: 160px; height: 160px; border-radius: 36px; box-shadow: 0 12px 40px rgba(224, 38, 58, 0.25); }
+.hero h1 { font-size: 38px; margin-top: 24px; }
+.hero p { font-size: 19px; color: var(--muted); margin: 0 auto; max-width: 30em; }
+.links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 28px; }
+.links a {
+  display: inline-block; padding: 10px 18px; border-radius: 999px; text-decoration: none;
+  background: var(--panel); color: var(--text); border: 1px solid var(--rule);
+}
+.links a:hover { border-color: var(--accent); }
+footer { max-width: 760px; margin: 0 auto; padding: 16px 16px 40px; color: var(--muted); font-size: 14px; }
+footer a { color: var(--muted); }
