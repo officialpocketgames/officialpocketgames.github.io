@@ -1,6 +1,6 @@
-# Pocket Games website
+# Relic Play website
 
-The public pages for the Pocket Games iOS app, served by GitHub Pages at https://officialpocketgames.github.io/:
+The public pages for the Relic Play iOS app, served by GitHub Pages at https://officialpocketgames.github.io/:
 
 - `/privacy/` — the privacy policy (App Store Connect › Privacy Policy URL)
 - `/support/` — the support page (App Store Connect › Support URL)
