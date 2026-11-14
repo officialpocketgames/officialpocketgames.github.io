@@ -37,3 +37,17 @@ li { margin: 4px 0; }
 .links a:hover { border-color: var(--accent); }
 footer { max-width: 760px; margin: 0 auto; padding: 16px 16px 40px; color: var(--muted); font-size: 14px; }
 footer a { color: var(--muted); }
+.small { font-size: 14px; }
+code { background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 1px 6px; font-size: 15px; overflow-wrap: anywhere; }
+.legend { margin: 20px 0 0; display: grid; gap: 8px; }
+.legend div { display: flex; align-items: center; gap: 12px; }
+.legend dt, .legend dd { margin: 0; }
+.legend dd { color: var(--muted); }
+.games { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 10px; }
+.games li { margin: 0; background: var(--panel); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; }
+.game { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.game .name { font-weight: 700; }
+.games .note { margin: 6px 0 0; color: var(--muted); font-size: 16px; }
+.badge { flex: none; display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 0.02em; }
+.badge.great { background: #12351f; color: #7be0a0; border: 1px solid #1f5a34; }
+.badge.playable { background: #3a2a08; color: #f2c75c; border: 1px solid #5c4410; }
